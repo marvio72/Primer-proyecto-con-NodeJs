@@ -1,0 +1,21 @@
+{
+  "name": "agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Primer proyecto con Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "Marco Ruvalcaba",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.0",
+    "sequelize": "^6.5.0"
+  }
+}
